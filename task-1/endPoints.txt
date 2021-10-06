@@ -1,0 +1,12 @@
+Api EndPoints.
+
+
+http://localhost:3832/api/v1/user/signup
+
+http://localhost:3832/api/v1/user/otp-request
+
+
+http://localhost:3832/api/v1/user/otp-verification
+
+
+http://localhost:3832/api/v1/user/data

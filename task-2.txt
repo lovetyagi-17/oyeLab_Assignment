@@ -1,0 +1,12 @@
+// Mongo Query.
+db.getCollection('customers').aggregate([{
+    $lookup: {
+            from: "Subjects",
+            localField: "subjects._id",
+            foreignField: "_id",
+            as: "response"
+        }},
+        {
+            $unwind: '$response'
+        }
+])

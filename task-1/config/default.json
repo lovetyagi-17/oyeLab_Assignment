@@ -1,0 +1,10 @@
+{
+  "PORT": 3832,
+  "BASE_URL": "http://localhost:3832/api",
+  "DB_URL": "mongodb://localhost:27017/oyeTask",
+  "HOST": "stmp.gamil.com",
+  "USER": "himanshurawat155@gmail.com",
+  "PASS": "Rawat@8171",
+  "SERVICE": "gmail" ,
+  "SUPPORT_EMAIL" : "himanshurawat155@gmail.com"
+}
